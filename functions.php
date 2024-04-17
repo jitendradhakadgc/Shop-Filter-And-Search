@@ -1,3 +1,4 @@
+<?php
 /**
  * gc code
  * Modify filter for shop page when vendor is logged in to show only industry-related products.
@@ -111,3 +112,4 @@ function gc_modify_search_query($query) {
 
 // Add filter to modify search query
 add_filter( 'pre_get_posts', 'gc_modify_search_query' );
+?>
